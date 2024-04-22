@@ -1,0 +1,62 @@
+.container-formulario {
+    width: 50%; 
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container-select-marca {
+    margin-bottom: 10px; 
+}
+
+.container-input-veiculo {
+    margin-bottom: 10px; 
+}
+.input-veiculo {
+    width: 98%;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+.input-descricao {
+    width: 98%;
+    height: 20px;
+    margin-top: 10px;
+}
+.select-marca {
+    width: 100%;
+    height: 25px;
+    border-radius: 6px;
+}
+.button-container {
+    text-align: right;
+}
+.button-containerEditar {
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    height: 25px;
+    width: 120px;
+    border-radius: 5px
+}
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+.select-vendido {
+    width: 47%;
+    height: 25px;
+    border-radius: 6px;
+}
+.input-ano {
+    width: 47%;
+    height: 20px;
+    border-radius: 6px;
+}
