@@ -32,11 +32,9 @@ public class VeiculoServiceImpl implements VeiculoService {
 
     @Transactional
     public Veiculo atualizarDadosVeiculo(Long id, Veiculo veiculo) {
-        // Buscar o veículo pelo ID no repositório
         findVeiculoById(id);
-        // Seta o ID
         veiculo.setId(id);
-        // Salvar
+
         return veiculoRepository.save(veiculo);
     }
 
@@ -64,6 +62,7 @@ public class VeiculoServiceImpl implements VeiculoService {
     @Transactional(readOnly = true)
     @Override
     public List<Veiculo> buscarPorMarcaAnoCor(String marca, Integer ano, String cor) {
+
         return veiculoRepository.findByMarcaAnoCor(marca, ano, cor);
     }
 
@@ -101,6 +100,7 @@ public class VeiculoServiceImpl implements VeiculoService {
 
     @Transactional(readOnly = true)
     private Veiculo findVeiculoById(Long Id) {
+
         return veiculoRepository.findById(Id)
                 .orElseThrow(() -> new BusinessException("Veículo não encontrado com ID: " + Id));
     }

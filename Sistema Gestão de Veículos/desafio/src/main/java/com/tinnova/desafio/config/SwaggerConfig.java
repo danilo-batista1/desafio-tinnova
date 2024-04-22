@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @OpenAPIDefinition(info = @Info(
-        title = "Desenvolvimento de um projeto para o desafio da Tinnova",
+        title = "Desenvolvimento de um sistema de gestão de veículos para o desafio proposto Tinnova",
         version = "1.0",
         description = "Página para documentação das rotas da API de gestão de veículos"
 ))
@@ -22,7 +22,7 @@ public class SwaggerConfig {
         return new OpenAPI()
                 .components(new Components())
                 .info(new io.swagger.v3.oas.models.info.Info()
-                        .title("Desenvolvimento de uma aplicação para o desafio da Tinnova")
+                        .title("Desenvolvimento de um sistema de gestão de veículos para o desafio proposto Tinnova")
                         .version("1.0")
                         .license(new License()
                         .name("Apache 2.0")
