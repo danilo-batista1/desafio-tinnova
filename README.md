@@ -32,7 +32,7 @@ Deverá haver consistência das marcas fornecidas. Não poderá haver marcas esc
 
 <h3> Tela Editar Veículo </h3>
 
-![Image](https://github.com/danilo-batista1/desafio-tinnova/blob/main/img/TelaEditar.png)
+![Image](https://github.com/danilo-batista1/desafio-tinnova/blob/main/img/TelaEditar.JPG)
 
 <br>
 
@@ -79,4 +79,4 @@ CREATE TABLE IF NOT EXISTS veiculos (
 
 <h2> Documentação das rotas. <br> Entendendo a lógica da API desenvolvida neste projeto. </h2>
 
-![Swagger](https://github.com/danilo-batista1/desafio-tinnova/blob/main/img/Swagger-UI.pdf)
+![Swagger](https://github.com/danilo-batista1/desafio-tinnova/blob/main/img/Swagger-UI.JPG)
