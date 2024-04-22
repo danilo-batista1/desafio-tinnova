@@ -1,4 +1,4 @@
-<h2> :dart: Objetivo</h2>
+<h2> :dart: Objetivo </h2>
 Criar uma aplicação back-end (Java ou NodeJS) baseada em web services usando JSON.
 Deverá haver um front-end em modo Single Page Application que se comunique com os serviços criados no back-end.
 
@@ -25,18 +25,18 @@ Deverá haver consistência das marcas fornecidas. Não poderá haver marcas esc
 
 <br>
 
-<h2> 📋 Telas Realizadas</h2>
+<h2> 📋 Telas Realizadas </h2>
 <h3> Tela Gestão de Veículos </h3>
 
-![image](https://github.com/danilo-batista1/desafio-tinnova/main/img/TelaBase.png)
+![Image](https://github.com/danilo-batista1/desafio-tinnova/blob/main/img/TelaBase.JPG)
 
-<h3> Tela Editar Veículo</h3>
+<h3> Tela Editar Veículo </h3>
 
-![image](https://github.com/danilo-batista1/desafio-tinnova/main/img/TelaEditar.png)
+![Image](https://github.com/danilo-batista1/desafio-tinnova/blob/main/img/TelaEditar.png)
 
 <br>
 
-<h2> Instalação</h2>
+<h2> Instalação </h2>
 
 <h3> Bancos de Dados </h3>
 
@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS veiculos (
 )
 ```
 
-<h3>Back-End</h3>
+<h3>Back-End </h3>
 
 <h2>OBS: Você precisará do Java 17+ e do Maven instalados em seu computador para construir este aplicativo.</h2>
 
@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS veiculos (
   
     4º) $ mvn spring-boot:run
 
-<h3>Front-End</h3>
+<h3>Front-End </h3>
 
     1º) cd .\front-end\
   
@@ -79,4 +79,4 @@ CREATE TABLE IF NOT EXISTS veiculos (
 
 <h2> Documentação das rotas. <br> Entendendo a lógica da API desenvolvida neste projeto. </h2>
 
-![](https://github.com/danilo-batista1/desafio-tinnova/main/img/Swagger-UI.pdf)
+![Swagger](https://github.com/danilo-batista1/desafio-tinnova/blob/main/img/Swagger-UI.pdf)
